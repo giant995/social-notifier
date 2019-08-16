@@ -1,7 +1,7 @@
 import snoowrap from 'snoowrap';
 import { SubmissionStream } from 'snoostorm';
 
-import { asToken } from './util/regexp';
+import {andCriteria, asToken} from './util/regexp';
 
 let client;
 
@@ -49,7 +49,10 @@ function makeTestsForTokens(tokens) {
     let regExps = token.split(',')
       .map((_token) => asToken(_token));
 
-    return (text) => regExps.every((regExp) => regExp.test(text));
+    return (text) => regExps.every((regExp) => {
+      console .log("text: " + regExp)
+      regExp.test(text);
+    });
   });
 }
 

@@ -41,7 +41,7 @@ function getBlocks(type, payload) {
 
   switch(type) {
     case SOURCES.Reddit: return getRedditBlocks(payload);
-    case SOURCES.Twitter: return getTwitterBlocks(payload);
+    //case SOURCES.Twitter: return getTwitterBlocks(payload);
     case SOURCES.Error:
     default: return getErrorBlocks(payload);
   }

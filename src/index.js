@@ -34,4 +34,4 @@ async function initTwitter(configPath = join(cwd(), 'data', 'twitter.yml')) {
 }
 
 initReddit();
-initTwitter();
+// initTwitter();
