@@ -38,10 +38,8 @@ Configuration for all social services is set up in `.yml` files in the data dire
     ```
     subreddit_name:
       - search term 1
-      # use a comma to search like a boolean OR
-      - comma,seperated,search
-      # user ampersand to search like a boolean AND where the position of the words don't matter
-      - ampersand&&seperated&&search
+      - comma,seperated,means,boolean,or
+      - space seperated means bolean and
     AskReddit:
       - plumbus
       - pan-galactic gargle blaster
