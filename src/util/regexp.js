@@ -2,7 +2,7 @@ export const PUNCTUATION_SET = '\\-=_!"#%&\'*{},.\\/:;?\\(\\)\\[\\]@\\\\$\\^*+<>
 
 export function asToken(text) {
   let search_criteria = '';
-  text.split('&&').forEach(item => {
+  text.split(' ').forEach(item => {
     search_criteria += '(?=.*\\b' + item + '\\b)';
   });
   return new RegExp("(?:^|[${PUNCTUATION_SET}\\\\s])^" + search_criteria + ".*$(?:[${PUNCTUATION_SET}\\\\s]|$)", 'i');
