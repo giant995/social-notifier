@@ -1,2 +1,40 @@
-testabot:
-  - management&&contact,software
+Entrepreneur:
+  - manage leads
+  - manage contacts
+  - contact software,contacts software, program
+  - program recommendation,program recommend
+  - contact tool,contacts tools,contact tools,contacts tool
+  - contact information
+  - I have to meet
+  - I have to meet professionnals
+  - I have to meet clients
+  - I have to meet directors
+  - forget who you've met
+  - date of meeting
+  - better solution,slow,tedious
+  - track prospects
+  - track contacts,track contact
+  - track leads,track lead
+  - track client,track clients
+  - better interact
+  - contact relationship management,contact relationship manager
+smallbusiness:
+  - manage leads
+  - manage contacts
+  - contact software,contacts software, program
+  - program recommendation,program recommend
+  - contact tool,contacts tools,contact tools,contacts tool
+  - contact information
+  - I have to meet
+  - I have to meet professionnals
+  - I have to meet clients
+  - I have to meet directors
+  - forget who you've met
+  - date of meeting
+  - better solution,slow,tedious
+  - track prospects
+  - track contacts,track contact
+  - track leads,track lead
+  - track client,track clients
+  - better interact
+  - contact relationship management,contact relationship manager
