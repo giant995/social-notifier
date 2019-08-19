@@ -38,8 +38,8 @@ Configuration for all social services is set up in `.yml` files in the data dire
     ```
     subreddit_name:
       - search term 1
-      - comma,seperated,means,boolean,OR
-      - space seperated, means booleand AND
+      - comma,seperated,means,boolean,or
+      - space seperated means bolean and
     AskReddit:
       - plumbus
       - pan-galactic gargle blaster
